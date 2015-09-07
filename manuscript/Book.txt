@@ -1,8 +1,8 @@
-README.md
-DataStructures_01_Lists.md
-DataStructures_02_QueuesAndStacks.md
-Techniques_01_RecursionAndIteration.md
-Techniques_02_Backtracking.md
-DataStructures_03_BinaryTrees.md
-Algorithms_01_Searching.md
+README.txt
+DataStructures_01_Lists.txt
+DataStructures_02_QueuesAndStacks.txt
+Techniques_01_RecursionAndIteration.txt
+Techniques_02_Backtracking.txt
+DataStructures_03_BinaryTrees.txt
+Algorithms_01_Searching.txt
 
