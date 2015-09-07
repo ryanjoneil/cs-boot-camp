@@ -1,8 +1,8 @@
-Chapter 1: Lists
+Chapter 1. Lists
 ================
 
-About Lists
------------
+Array Lists & Linked Lists
+--------------------------
 
 In this section we'll explore list structures. There are two fundamental types, a Linked List and an Array List. They differ in how they allocate and reference memory needed for storing data. An Array List stores all its data contiguously, such as:
 
@@ -19,7 +19,8 @@ While a Linked List stores each data item separately in memory. Each data item i
 ~~~~~~~
 
 
-X> ## Exercises
+Exercises
+---------
 
 ### Exercise 0
 
@@ -87,7 +88,6 @@ amount of time.
 
 While these are obviously not all equal in their time impact, we will think 
 of them as though they are. Consider the following computation.
-
 
 {lang=text,linenos=off}
 ~~~~~~~
@@ -160,7 +160,9 @@ time, which is itself inside another for loop. Thus the time complexity is
 `O(1 * n * n) = O(n^2)`, which is known as quadratic time.
 
 
-Q> ## Follow-Up Questions
+Follow-Up Questions
+-------------------
+
 - What are the time complexities of the various list method for a Linked List?
 - What are the time complexities of the various list method for an Array List?
 - Under what circumstances might one use one or the other list type?
@@ -172,4 +174,6 @@ Q> ## Follow-Up Questions
 Solutions
 ---------
 
-<<[Lists: Main Method](../csbc-bin/ch01.go)
+Reference code for the list data structures can be found in the appendix.
+
+<<[Lists: ch01.go](../csbc-bin/ch01.go)
