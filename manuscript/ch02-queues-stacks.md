@@ -53,8 +53,7 @@ Follow-Up Questions
 - What would be the impact of using an Array List for a Queue?
 - What would be the impact of using an Array List for a Stack?
 
-{pagebreak}
 
 Solutions
 ---------
-<<[Lists: ch02.go](../csbc-bin/ch02.go)
+<<[Queues & Stacks: ch02.go](../csbc-bin/ch02.go)

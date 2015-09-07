@@ -29,6 +29,10 @@ structure:
 ~~~~~~~
 class LinkedListNode:
 	attributes:
+class LinkedListNode:
+    attributes:
+        next LinkedListNode
+        previous LinkedListNo
 		next LinkedListNode
 		previous LinkedListNode
 		value int
@@ -166,7 +170,6 @@ Follow-Up Questions
 - How does growth factor affect the speed of appending to an Array List?
 - What is the disadvantage of using a high growth factor?
 
-{pagebreak}
 
 Solutions
 ---------
