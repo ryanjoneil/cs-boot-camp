@@ -1,53 +1,13 @@
-CS Boot Camp
-============
+Preface
+=======
 
 About
 -----
-In this repository you will find a series of exercises intended for quickly
-developing or refreshing CS skills in programmers. There are two repositories
-of interest.
+In this book you will find a series of exercises intended for quickly developing or refreshing basic Computer Science skills. It is not intended to be exhaustive on any one subject, but more of a broad covering of important topics from an undergraduate curriculum.
 
-- [github.com/ryanjoneil/csbin](https://github.com/ryanjoneil/csbin/)
-- [github.com/ryanjoneil/cslib](https://github.com/ryanjoneil/cslib/)
+Each chapter contains a number of exercises and solutions. The solution code is availble through two directories in the GitHub repository for this book.
 
-The former contains problem descriptions and discussions (.md files), along
-with reference solutions written in the language Go (.go files). The latter
-contains data structures used by some of the exercises. You should write your
-data structures and solutions in whatever language you like, then compare to
-the reference implementations.
+- [github.com/ryanjoneil/cs-boot-camp/csbc-bin](https://github.com/ryanjoneil/cs-boot-camp/tree/master/csbc-bin)
+- [github.com/ryanjoneil/cs-boot-camp/csbc-lib](https://github.com/ryanjoneil/cs-boot-camp/tree/master/csbc-lib)
 
-Table of Contents
------------------
-The following order may prove particularly instructive.
-
-- Data Structures 01:  [Lists](https://github.com/ryanjoneil/csbin/blob/master/DataStructures_01_Lists.md)
-- Data Structures 02:  [Queues and Stacks](https://github.com/ryanjoneil/csbin/blob/master/DataStructures_02_QueuesAndStacks.md)
-- Techniques 01:       [Recursion and Iteration](https://github.com/ryanjoneil/csbin/blob/master/Techniques_01_RecursionAndIteration.md)
-- Techniques 02:       [Backtracking](https://github.com/ryanjoneil/csbin/blob/master/Techniques_02_Backtracking.md)
-- Data Structures 03:  [Binary Trees](https://github.com/ryanjoneil/csbin/blob/master/DataStructures_03_BinaryTrees.md)
-- Algorithms 01:       [Searching](https://github.com/ryanjoneil/csbin/blob/master/Algorithms_01_Searching.md)
-
-Exercises and solutions that are pending include, but are in no way limited
-to the following.
-
-- Algorithms 02:       Bubble Sort
-- Algorithms 03:       Mergesort
-- Algorithms 04:       Quicksort
-- Data Structures 04:  Heaps
-- Algorithms 05:       Heapsort
-- Data Structures 05:  Red-Black Trees
-- Data Structures 06:  Hash Maps
-- Techniques 03:       Memoization
-- Algorithms 06:       Depth-First Search
-- Data Structures 07:  Graphs
-- Algorithms 07:       Shortest Paths
-- Techniques 04:       Dynamic Optimization
-
-License
--------
-This text and code is distributed under the Creative Commons license 
-CC BY-NC-SA (http://creativecommons.org/licenses/by-nc-sa/3.0/). 
-
-Contact
--------
-[Ryan J. O'Neil](mailto:ryanjoneil@gmail.com)
+The former contains reference solutions for the exercises written in the language Go (.go files). The latter contains data structures used by some of the exercises. You should write your data structures and solutions in whatever language you like, then compare to the reference implementations.

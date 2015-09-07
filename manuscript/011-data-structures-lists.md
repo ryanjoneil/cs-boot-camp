@@ -1,52 +1,58 @@
-Data Structures 01: Lists
-=========================
+Chapter 1: Data Structures - Lists
+==================================
 
 Discussion
 ----------
-In this section we'll explore list structures. There are two fundamental
-types, a Linked List and an Array List. They differ in how they allocate and
-reference memory needed for storing data. An Array List stores all its data
-contiguously, such as:
+In this section we'll explore list structures. There are two fundamental types, a Linked List and an Array List. They differ in how they allocate and reference memory needed for storing data. An Array List stores all its data contiguously, such as:
 
+{lang=text}
+~~~~~~~
 	| 0 | 1 | 2 | 3 |
+~~~~~~~
 
-While a Linked List stores each data item separately in memory. Each data
-item is part of a LinkedListNode which links to the item before and after it. The
-list has a Head and a Tail, which are the first and last nodes in the list,
-respectively.
+While a Linked List stores each data item separately in memory. Each data item is part of a LinkedListNode which links to the item before and after it. The list has a Head and a Tail, which are the first and last nodes in the list, respectively.
 
+{lang=text}
+~~~~~~~
 	| 0 | <-> | 1 | <-> | 2 | <-> | 3 |
+~~~~~~~
 
 
-Exercise 0
-----------
-Create an implementation of a Linked List. It should have the following 
-structure:
+Exercises
+---------
 
-	class LinkedListNode:
-		attributes:
-			next LinkedListNode
-			previous LinkedListNode
-			value int
-
-	class LinkedList:
-		methods:
-			append(value int)
-			get(index int) returns int
-			insert(index int, value int)
-			remove(index int)
-			length() returns int
-			traverse(func(int))
-		
-		attributes:
-			head LinkedListNode
-			tail LinkedListNode
-			len int
-
-If you have access to an underlying array type, implement an Array List with
-the same methods, but use an array for storing its data. Give the Array List
-a growth factor which determines how much larger it becomes when a call to 
-append(...) overflows its bounds.
+X> Exercise 0
+X> 
+X> Create an implementation of a Linked List. It should have the following
+X> structure:
+X> 
+X> {lang=text}
+X> ~~~~~~~
+X> class LinkedListNode:
+X>     attributes:
+X>         next LinkedListNode
+X>         previous LinkedListNode
+X>         value int
+X> 
+X> class LinkedList:
+X>     methods:
+X>         append(value int)
+X>         get(index int) returns int
+X>         insert(index int, value int)
+X>         remove(index int)
+X>         length() returns int
+X>         traverse(func(int))
+X> 
+X>     attributes:
+X>         head LinkedListNode
+X>         tail LinkedListNode
+X>         len int
+X> ~~~~~~~
+X> 
+X> If you have access to an underlying array type, implement an Array List with
+X> the same methods, but use an array for storing its data. Give the Array List
+X> a growth factor which determines how much larger it becomes when a call to 
+X> `append(...)` overflows its bounds.
 
 
 Exercise 1
@@ -148,3 +154,11 @@ Follow-Up Questions
 - Why is removing the first element of a Linked List faster than an Array List?
 - How does growth factor affect the speed of appending to an Array List?
 - What is the disadvantage of using a high growth factor?
+
+
+Solutions
+---------
+<<[Lists: Main Method](../csbc-bin/DataStructures_01_Lists.go)
+<<[Lists: List Interface](../csbc-bin/DataStructures_01_Lists.go)
+<<[Lists: Array List](../csbc-bin/DataStructures_01_Lists.go)
+<<[Lists: Linked List](../csbc-bin/DataStructures_01_Lists.go)
