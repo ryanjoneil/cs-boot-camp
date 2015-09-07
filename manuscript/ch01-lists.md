@@ -166,6 +166,7 @@ Follow-Up Questions
 - How does growth factor affect the speed of appending to an Array List?
 - What is the disadvantage of using a high growth factor?
 
+{pagebreak}
 
 Solutions
 ---------
