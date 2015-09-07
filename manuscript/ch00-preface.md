@@ -1,8 +1,6 @@
 Preface
 =======
 
-About
------
 In this book you will find a series of exercises intended for quickly developing or refreshing basic Computer Science skills. It is not intended to be exhaustive on any one subject, but more of a broad covering of important topics from an undergraduate curriculum.
 
 Each chapter contains a number of exercises and solutions. The solution code is availble through two directories in the GitHub repository for this book.

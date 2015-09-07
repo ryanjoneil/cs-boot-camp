@@ -1,8 +1,2 @@
-001-preface.md
-011-data-structures-lists.md
-021-data-structures-queues-and-stacks.md
-031-techniques-recursion-and-iteration.md
-041-techniques-backtracking.md
-051-data-structures-binary-trees.md
-061-algorithms-searching.md
-
+preface.md
+ch01-lists.md
