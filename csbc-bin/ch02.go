@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/ryanjoneil/cslib"
+
+	"github.com/ryanjoneil/cs-boot-camp/csbc-lib"
 )
 
 func main() {

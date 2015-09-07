@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/ryanjoneil/cs-boot-camp/csbc-lib"
 	"math"
 	"math/rand"
 	"time"
+
+	"github.com/ryanjoneil/cs-boot-camp/csbc-lib"
 )
 
 func timeFunc(what string, f func()) {

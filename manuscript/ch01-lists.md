@@ -1,9 +1,8 @@
 Chapter 1. Lists
 ================
 
-Array Lists & Linked Lists
---------------------------
-
+Discussion
+----------
 In this section we'll explore list structures. There are two fundamental types, a Linked List and an Array List. They differ in how they allocate and reference memory needed for storing data. An Array List stores all its data contiguously, such as:
 
 {lang=text,linenos=off}
@@ -23,31 +22,30 @@ Exercises
 ---------
 
 ### Exercise 0
-
 Create an implementation of a Linked List. It should have the following
 structure:
 
 {lang=text,linenos=off}
 ~~~~~~~
 class LinkedListNode:
-    attributes:
-        next LinkedListNode
-        previous LinkedListNode
-        value int
+	attributes:
+		next LinkedListNode
+		previous LinkedListNode
+		value int
 
 class LinkedList:
-    methods:
-        append(value int)
-        get(index int) returns int
-        insert(index int, value int)
-        remove(index int)
-        length() returns int
-        traverse(func(int))
+	methods:
+		append(value int)
+		get(index int) returns int
+		insert(index int, value int)
+		remove(index int)
+		length() returns int
+		traverse(func(int))
 
-    attributes:
-        head LinkedListNode
-        tail LinkedListNode
-        len int
+	attributes:
+		head LinkedListNode
+		tail LinkedListNode
+		len int
 ~~~~~~~
 
 If you have access to an underlying array type, implement an Array List with
@@ -57,13 +55,11 @@ a growth factor which determines how much larger it becomes when a call to
 
 
 ### Exercise 1
-
 Insert the first 10 integers, 0 to 9, into the a list. Traverse the list in
 order and print them to standard output.
 
 
 ### Exercise 2
-
 For n = 100, 1000, ..., 100k, time the following functions against your 
 Linked List and for an Array or Array List. If you have an Array List 
 implementation, try this against a variety of growth factors.
@@ -73,7 +69,8 @@ b. Get a random index 10000 times.
 c. Remove all elements from the front of the list.
 
 
-D> ## Time Complexity
+Discussion: Time Complexity
+---------------------------
 In evaluating the speed of an algorithm, we are often primarily concerned
 with its time complexity. This is a rough measure of the number of 
 fundamental operations a computer must perform, given input of a certain 
@@ -91,7 +88,7 @@ of them as though they are. Consider the following computation.
 
 {lang=text,linenos=off}
 ~~~~~~~
-    x = (a + 3) * 4
+	x = (a + 3) * 4
 ~~~~~~~
 
 This could consist of the following operations on a hypothetical machine.
@@ -111,9 +108,9 @@ Another algorithm might consist of summing the elements of a list.
 
 {lang=text,linenos=off}
 ~~~~~~~
-    sum = 0
-    for item in some list:
-        sum = sum + item
+	sum = 0
+	for item in some list:
+		sum = sum + item
 ~~~~~~~
 
 The first statement takes `O(1)` time, as does the nested addition 
@@ -133,11 +130,11 @@ see if it contains some element.
 
 {lang=text,linenos=off}
 ~~~~~~~
-    contains item = false
-        for item in some list:
-            if item is what we are looking for:
-                contains item = true
-                break
+	contains item = false
+		for item in some list:
+			if item is what we are looking for:
+				contains item = true
+				break
 ~~~~~~~
 
 If the item we are looking for is the first element of some list, then this
@@ -150,9 +147,9 @@ Let's consider one final algorithm containing a nested loop.
 
 {lang=text,linenos=off}
 ~~~~~~~
-    for i in some list:
-        for j in some list:
-            print i, j
+	for i in some list:
+		for j in some list:
+			print i, j
 ~~~~~~~
 
 The final line runs in `O(1)` time. It is inside a for loop running `O(n)`
@@ -162,7 +159,6 @@ time, which is itself inside another for loop. Thus the time complexity is
 
 Follow-Up Questions
 -------------------
-
 - What are the time complexities of the various list method for a Linked List?
 - What are the time complexities of the various list method for an Array List?
 - Under what circumstances might one use one or the other list type?
@@ -173,7 +169,6 @@ Follow-Up Questions
 
 Solutions
 ---------
-
 Reference code for the list data structures can be found in the appendix.
 
 <<[Lists: ch01.go](../csbc-bin/ch01.go)
