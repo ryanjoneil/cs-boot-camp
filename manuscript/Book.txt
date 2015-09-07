@@ -3,4 +3,6 @@ ch01-lists.md
 ch02-queues-stacks.md
 ch03-recursion-iteration.md
 ch04-backtracking.md
+ch05-binary-trees.md
+ch06-searching.md
 ch99-appendix.md
