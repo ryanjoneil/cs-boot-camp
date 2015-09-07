@@ -2,4 +2,5 @@ ch00-preface.md
 ch01-lists.md
 ch02-queues-stacks.md
 ch03-recursion-iteration.md
+ch04-backtracking.md
 ch99-appendix.md

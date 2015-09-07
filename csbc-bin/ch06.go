@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/ryanjoneil/cslib"
 	"math/rand"
 	"time"
+
+	"github.com/ryanjoneil/cs-boot-camp/csbc-lib"
 )
 
 func main() {
